@@ -1,7 +1,5 @@
 package com.leetcode.arrays;
 
-import jdk.nashorn.internal.runtime.FindProperty;
-
 class MaxConsecutiveOnes {
     public static int findMaxConsecutiveOnes(int[] nums) {
         
