@@ -68,7 +68,8 @@ public class ArrayRotation {
 	}
 
 	// Method 3: Juggling Method
-	// Time - 
+	// Time - O(n)
+	// Space - O(1)
 	void rorate3(int[] arr, int n, int d) {
 
 		d = d % n;
