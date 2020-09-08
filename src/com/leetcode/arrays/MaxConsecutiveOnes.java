@@ -8,16 +8,15 @@ class MaxConsecutiveOnes {
         
         for ( int i=0; i < nums.length; i++){
             
-            if ( nums[i] == 0 ) {
-                maxLen = Math.max(len, maxLen);
-                len =0 ;
+        	// Count number of 1s
+            if ( nums[i] == 1 ) {
+            	len++;
             } else {
-                len++;
+            	maxLen = Math.max(len, maxLen);
+                len =0 ;
             }
         }
-        
         return Math.max(len, maxLen);
-        
     }
     
     public static void main( String[] args ) {
